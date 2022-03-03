@@ -3,6 +3,22 @@
 
 * {margin:0;
 padding:0;
-border:0;}
-h1 {font-family :exo-2 ,sans-serif;
-font-weight: 400;}
+border: none;}
+
+body {font-family :'Alegreya' ,sans-serif;
+font-weight: 300;
+color: #3a3a3a}
+
+/*heading and logo*/
+
+h1, h2 {
+    font-family:'Exo 2' ,sans-serif ;
+    text-transform: uppercase;
+    letter-spacing : 3px;
+    color: #252525;
+
+}
+#logo {
+    float: left;
+    font-size: 280%;
+}
