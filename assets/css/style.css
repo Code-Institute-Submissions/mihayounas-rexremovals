@@ -1,1 +1,8 @@
-h1 {color: red;}
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Exo+2&display=swap');
+
+
+* {margin:0;
+padding:0;
+border:0;}
+h1 {font-family :exo-2 ,sans-serif;
+font-weight: 400;}
