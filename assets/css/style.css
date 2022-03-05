@@ -21,6 +21,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 /* navigation links*/
 
@@ -77,21 +78,21 @@ animation-fill-mode: forwards;}
 
 .container {
     display: block;
-    background-color: rgb(233, 100, 39);
+    background-color: rgb(250, 220, 120);
     border: 1 px solid black;
     border-radius: 10px;
     top: 80%;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 300px;
-  height: 60px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 60px;
+    text-transform: uppercase;
   
 }
 
 #button {
   position: relative;
-  color: #fdf7f7;
   font-size: 200%;
   font-family : 'exo 2', sans-serif ;
   margin: auto;
@@ -108,4 +109,27 @@ animation-fill-mode: forwards;}
 
   .container a {
     text-decoration: none;
+    color: #3a3a3a;
   }
+
+  /*special features section*/
+
+#feature{
+    height: 600px;
+} 
+
+#left-about {
+    padding-top: 30px;
+    width:33%;
+    float: left;
+}
+#right-about {
+    padding-top: 30px;
+    width:33%;
+    float: right;
+}
+
+#center-about {
+    width:33%;
+    margin: 0 auto
+}
