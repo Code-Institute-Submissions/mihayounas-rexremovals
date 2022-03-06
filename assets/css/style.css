@@ -56,7 +56,7 @@ letter-spacing: 3px;}
 #hero-image{
     height: 600px;
     width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
+    background: url('../images/hero-img.jpg') no-repeat center center;
  background-size :cover;
  /*animation effect and loading page*/
 
@@ -79,11 +79,11 @@ animation-fill-mode: forwards;}
 
 .container {
     display: block;
-    background-color: rgb(250, 220, 120);
+    background-color: rgb(79, 165, 161);
     border: 1 px solid black;
     border-radius: 10px;
-    top: 80%;
-    left: 0;
+    top: 30%;
+    left: -40%;
     bottom: 0;
     right: 0;
     width: 300px;
@@ -232,8 +232,8 @@ footer {
 }
 
 .social i {
-    font-size: 160%;
+    font-size: 200%;
     margin: 1%;
     padding : 5%;
-    color:rgb(250, 220, 120);
+    color:rgb(79, 165, 161);
 }
