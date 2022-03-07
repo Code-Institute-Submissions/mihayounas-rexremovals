@@ -239,10 +239,12 @@ footer {
     text-align: center;
     border: 2px solid white ;
     box-sizing: border-box;
-    top: 30px;
+    top: 40px;
     padding-top: 20px;
     clear: both;
     display: table;
+    border-radius: 50%;
+    
     
 }
 #service1 {
@@ -251,6 +253,7 @@ footer {
     background-repeat: no-repeat;
     overflow: hidden;
     float: left;
+    
     
 
 }
