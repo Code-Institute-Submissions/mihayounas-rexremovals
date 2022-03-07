@@ -80,7 +80,7 @@ animation-fill-mode: forwards;}
 .container {
     display: block;
     background-color: rgb(79, 165, 161);
-    border: 1 px solid black;
+    border: 1px solid black;
     border-radius: 10px;
     top: 30%;
     left: -40%;
@@ -95,13 +95,6 @@ animation-fill-mode: forwards;}
     bottom: 10px;
     text-align: center;
     padding-top: 20px;
-}
-
-#button {
-  
- 
-
-  
 }
 #button:hover {
     background: #2079b0;
