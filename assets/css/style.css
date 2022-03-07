@@ -226,3 +226,67 @@ footer {
     padding : 5%;
     color:rgb(79, 165, 161);
 }
+
+/*style services section*/
+
+
+.services div {
+    
+    color: #fafafa;
+    background-color: rgba(0, 0 , 0, .6);
+    width: 25%;
+    height: 300px;
+    text-align: center;
+    border: 2px solid white ;
+    box-sizing: border-box;
+    top: 30px;
+    padding-top: 20px;
+    clear: both;
+    display : block ;
+    border-radius: 50%;
+    
+}
+#service1 {
+    background-image: url('../images/house.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    float: left;
+
+}
+#service2 {
+    background-image: url('../images/collection.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width:25%;
+    
+}
+#service3 {
+    background-image: url('../images/features.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+   
+}
+#service4 {
+    background-image: url('../images/ebay.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  
+}
+#service5 {
+    background-image: url('../images/motorbike.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  
+}
+#service6 {
+    background-image: url('../images/piano.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  
+}
