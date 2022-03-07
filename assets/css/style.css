@@ -242,8 +242,7 @@ footer {
     top: 30px;
     padding-top: 20px;
     clear: both;
-    display : block ;
-    border-radius: 50%;
+    display: table;
     
 }
 #service1 {
@@ -252,6 +251,7 @@ footer {
     background-repeat: no-repeat;
     overflow: hidden;
     float: left;
+    
 
 }
 #service2 {
@@ -259,7 +259,11 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
-    width:25%;
+    margin:0 auto;
+    position: absolute;
+    transform: translate(120%, 0);
+    top: 7%;
+    
     
 }
 #service3 {
@@ -274,6 +278,10 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
+    margin:0 auto;
+    position: absolute;
+    top: 46%;
+    transform: translate(120%, 0);
   
 }
 #service5 {
@@ -281,6 +289,8 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
+    top: 20%;
+    transform: translate(250%,-200%);
   
 }
 #service6 {
@@ -288,5 +298,8 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
+    top: 46%;
+    transform: translate(250%,-200%);
+
   
 }
