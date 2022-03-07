@@ -238,7 +238,7 @@ footer {
     height: 300px;
     margin: 5px;
     border: 6px double black;
-  
+    border-radius: 50%;
     
 }
 .services {
