@@ -96,10 +96,6 @@ animation-fill-mode: forwards;}
     text-align: center;
     padding-top: 20px;
 }
-#button:hover {
-    background: #2079b0;
-    text-decoration: none;
-  }
 
   .container a {
     text-decoration: none;
