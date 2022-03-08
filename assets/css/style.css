@@ -141,6 +141,11 @@ hr {
     clear: both;
     margin-bottom: 50px;
 }
+.title-container {
+    display: flex;
+    justify-content: space-between;
+
+}
 
 /*right-about styling*/
 
