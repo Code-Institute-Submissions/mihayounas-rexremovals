@@ -340,3 +340,66 @@ footer {
         column-count: 2;
     }
 }
+
+
+/* Form */
+
+.form-section {
+    clear: both;
+   background-image: url('../images/formi.jpg');
+   background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+
+.sign-in {
+    margin : 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(79, 165, 161 , 0.6);
+    max-width: 400px;
+    position:absolute;
+    left: 10%;
+    padding :30px;
+    
+}
+.sign-in > h3 {
+color :#fafafa ;
+margin-bottom: 20px;
+text-align: center;
+}
+.text-input {
+    color: rgb(33, 104, 100);
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border: 1px solid #fafafa  ;
+    border-radius: 2px;
+    height: 20px;
+}
+.text-input:hover{
+    border-color: rgb(33, 104, 100);
+}
+#message {
+    color: #fafafa;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border: 1px solid #fafafa  ;
+    border-radius: 2px;
+    height: 100px;
+}
+
+.send-button {
+    margin-top:20px;
+border-radius: 2px;
+padding : 15px 32px 15px 32px;
+text-align: center;
+font-size: 100%;
+color: #fafafa;
+display: block;
+background-color: rgb(33, 104, 100);
+}
+.send-button:hover{
+    color:yellow;
+}
