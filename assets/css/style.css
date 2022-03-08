@@ -239,7 +239,7 @@ footer {
 /*style services section*/
 
 
-#img {
+.img {
     width: 100%;
      height: 100%; 
      object-fit: cover;
@@ -250,7 +250,7 @@ footer {
     border-radius: 50%;
     
 }
-.services {
+#services {
     
     width: 100%;
     min-height: 100vh;
@@ -331,5 +331,12 @@ footer {
     .left-about-heading p, .right-about-heading p {
         text-align: center;
         padding: 0 20px;
+    }
+}
+/* For small screens sizes 800px and down*/
+
+@media screen and (max-width: 800px){
+    #services{
+        column-count: 2;
     }
 }
