@@ -24,6 +24,10 @@ h1, h2 {
     font-size: 280%;
     margin-left: 30px;
 }
+#our-job {
+    text-align: center;
+    padding-top: 5%;
+}
 /* navigation links*/
 
 #menu {font-size: 100%;
@@ -255,6 +259,7 @@ footer {
     flex-wrap : wrap;
     align-items: center;
     justify-content: center;
+    padding-top: 5%;;
     
 
 }
