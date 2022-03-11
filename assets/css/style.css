@@ -155,21 +155,22 @@ animation-fill-mode: forwards;}
    
 }
 #wrapper {
-    height: 100px;
+    height: 150px;
     display: flex ;
     flex-direction: row;
     padding-top: 80px;
-    letter-spacing: 2px;
-    
+    letter-spacing: 2px;   
 }
 
+/*Style the section title*/
 
 #welcome {
     text-align: center;
     margin: 50px 0;
     font-size: 280%;
 }
-/*feedbacks image styling */
+
+/*Feedbacks image styling */
 
 #feedbacks {
     background-image: url('../images/feedbacks.jpeg');
@@ -190,10 +191,19 @@ animation-fill-mode: forwards;}
     text-align: center;
     border: 2px solid white ;
     box-sizing: border-box;
+    padding-top: 80px;
 }
 #feedbacks h2{
     color: #fafafa;
 
+}
+#trustpilot-logo {
+    text-align: center;  
+    color:rgb(79, 165, 161);
+}
+#feedback-title {
+    text-align: center;
+    
 }
 /* footer styling */
 
