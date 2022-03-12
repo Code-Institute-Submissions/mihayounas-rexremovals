@@ -224,7 +224,6 @@ footer {
     padding : 5%;
     color:rgb(79, 165, 161);
 }
-
 /*style services section*/
 
 
@@ -270,23 +269,11 @@ footer {
         margin: 0;
     }
 
-    #left-about, #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
     hr {
         display: none;
     }
 }
+
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
