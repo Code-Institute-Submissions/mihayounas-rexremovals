@@ -224,7 +224,7 @@ footer {
     padding : 5%;
     color:rgb(79, 165, 161);
 }
-/*style services section*/
+/*Style Services page*/
 
 
 .img {
@@ -242,17 +242,19 @@ footer {
     
     width: 100%;
     min-height: 100vh;
-    display: flex;
-    flex-direction :row;
+    display: block;
+    flex-direction : column;
     flex-wrap : wrap;
-    align-items: center;
-    justify-content: center;
-    padding-top: 5%;;
-    
+    padding-top: 5%;
+    column-count: 3;
+    margin : 0 auto;
+    background: rgb(181, 245, 242);
+   padding-left: 100px;
 
 }
 .services h2 {
     text-align: center;
+    color:rgb(79, 165, 161) ;
 }
 
 /* media queries*/
