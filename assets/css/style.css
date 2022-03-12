@@ -275,32 +275,6 @@
         }
     }
 
-    /* For medium screen sizes from 950px wide and down */
-    @media screen and (max-width: 950px) {
-
-        #menu {
-            margin-left: 30px;
-            margin-bottom: 20px;
-            line-height: 25px;
-        }
-
-        #cover-text {
-            left: 0;
-        }
-
-        .features  {
-            width: 65%;
-            height: 1200px;
-            margin: 0 auto;
-        }
-        #welcome {
-            padding: 30px 0;
-            margin: 0;
-        }
-    }
-    
-
-
 
     /* For medium screen sizes from 950px wide and down */
     @media screen and (max-width: 950px) {
@@ -331,8 +305,15 @@
            
        }
     }
+    @media screen and (max-width: 500px){
+        #hero-image{
+            background-color: rgb(79, 165, 161);
+        }
 
-    @media screen and (max-width: 300px){
+    }
+        
+
+    @media screen and (max-width: 380px){
       .icons {
           text-align: center;
           display: flex;
@@ -343,6 +324,12 @@
 
         #services{
             column-count: 1;
+            width: 300px;
+            float: right;
+            padding-right: 40px;
+        }
+        .social{
+          text-align: center;
         }
     }
 
