@@ -1,53 +1,68 @@
     @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Exo+2&display=swap');
 
 
-    * {margin:0;
-    padding:0;
-    border: none;}
+    * {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
 
-    body {font-family :'Alegreya' ,sans-serif;
-    font-weight: 300;
-    color: #3a3a3a;
+    body {
+        font-family: 'Alegreya', sans-serif;
+        font-weight: 300;
+        color: #3a3a3a;
     }
 
     /*heading and logo*/
 
-    h1, h2 {
-        font-family:'Exo 2' ,sans-serif ;
+    h1,
+    h2 {
+        font-family: 'Exo 2', sans-serif;
         text-transform: uppercase;
-        letter-spacing : 2px;
+        letter-spacing: 2px;
         color: #252525;
 
     }
+
     #logo {
         float: left;
         font-size: 280%;
         margin-left: 30px;
     }
+
     #our-job {
         text-align: center;
         padding-top: 5%;
     }
+
     /* navigation links*/
 
-    #menu {font-size: 100%;
-    letter-spacing: 3px;}
+    #menu {
+        font-size: 100%;
+        letter-spacing: 3px;
+    }
 
-    #menu li{
+    #menu li {
         float: right;
         list-style-type: none;
         margin-right: 30px;
-        margin-top: 20px;;
+        margin-top: 20px;
+        ;
     }
-    #menu a{ 
+
+    #menu a {
         text-decoration: none;
         color: inherit;
 
     }
+
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
-    .active { border-bottom: 1px solid #3a3a3a;}
+
+    .active {
+        border-bottom: 1px solid #3a3a3a;
+    }
 
     /*hero image*/
 
@@ -57,24 +72,26 @@
         overflow: hidden;
     }
 
-    #hero-image{
+    #hero-image {
         height: 600px;
         width: 100%;
         background: url('../images/hero.jpeg') no-repeat center center;
-    background-size :cover;
-    /*animation effect and loading page*/
+        background-size: cover;
+        /*animation effect and loading page*/
 
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;}
+        animation-name: hero-zoom;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
 
     /*creates level of zoom for hero image*/
 
-    @keyframes hero-zoom{
-        from{
+    @keyframes hero-zoom {
+        from {
             transform: scale(1);
         }
-        to{
+
+        to {
             transform: scale(1.1);
         }
     }
@@ -93,12 +110,12 @@
         height: 40px;
         text-transform: uppercase;
         font-size: 200%;
-        font-family : 'exo 2', sans-serif ;
+        font-family: 'exo 2', sans-serif;
         margin: auto;
         position: absolute;
         bottom: 10px;
         text-align: center;
-    
+
     }
 
     .container a {
@@ -109,57 +126,37 @@
     /*special features section*/
 
     .features {
-        height: 600px;
-    } 
+        min-height: 400px;
+    }
 
     /*style icon-container*/
-
-    #icon-container1 {
-        font-size:xxx-large;
-        margin: -60px;
-        margin-left: auto;
-        position: relative;
-        bottom: 0px;
-        right: -120px;
-    
-    
-    }
-    #icon-container2 {
-        font-size:xxx-large;
-        margin: -60px;
-        margin-left: auto;
-        position: relative;
-        bottom: 0px;
-        right: -150px;
-    }
-    #icon-container3 {
-        font-size:xxx-large;
-        margin: -60px;
-        margin-left: auto;
-        position: relative;
-        bottom: 0px;
-        right: -120px;
-        
-    }
-    #icon-container4 {
-        font-size:xxx-large;
-        margin: -60px;
-        margin-left: auto;
-        position: relative;
-        bottom: 0px;
-        right: -180px;
+    .icon-container {
+        text-align: center;
+        font-size: 30px;
+        margin: 20px;
     }
 
     .title-container {
         text-align: center;
-    
     }
+
     #wrapper {
         height: 150px;
-        display: flex ;
+        display: flex;
         flex-direction: row;
-        padding-top: 80px;
-        letter-spacing: 2px;   
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        letter-spacing: 2px;
+
+    }
+
+    .feature-container {
+        padding: 40px 20px;
+        border: 1px solid rgb(0, 0, 0, 0.1);
+        max-width: 300px;
     }
 
     /*Style the section title*/
@@ -183,28 +180,32 @@
 
     #feedbacks div {
         color: #fafafa;
-        background-color: rgba(0, 0 , 0, .6);
+        background-color: rgba(0, 0, 0, .6);
         width: 25%;
         height: 300px;
         float: left;
-        padding : 30px 0 0 10px;
+        padding: 30px 0 0 10px;
         text-align: center;
-        border: 2px solid white ;
+        border: 2px solid white;
         box-sizing: border-box;
         padding-top: 80px;
     }
-    #feedbacks h2{
+
+    #feedbacks h2 {
         color: #fafafa;
 
     }
+
     #trustpilot-logo {
-        text-align: center;  
-        color:rgb(79, 165, 161);
+        text-align: center;
+        color: rgb(79, 165, 161);
     }
+
     #feedback-title {
         text-align: center;
-        
+
     }
+
     /* footer styling */
 
     footer {
@@ -214,57 +215,62 @@
     .social {
         text-align: center;
     }
-    .social > li {
+
+    .social>li {
         display: inline;
     }
 
     .social i {
         font-size: 200%;
         margin: 1%;
-        padding : 5%;
-        color:rgb(79, 165, 161);
+        padding: 5%;
+        color: rgb(79, 165, 161);
     }
+
     /*Style Services page*/
 
 
     .img {
         width: 100%;
-        height: 100%; 
+        height: 100%;
         object-fit: cover;
         width: 300px;
         height: 300px;
         margin: 5px;
         border: 6px double black;
         border-radius: 50%;
-        
+
     }
+
     #services {
         width: 100%;
         min-height: 100vh;
         display: block;
-        flex-direction : column;
-        flex-wrap : wrap;
+        flex-direction: column;
+        flex-wrap: wrap;
         padding-top: 5%;
         column-count: 3;
-        margin : 0 auto;
+        margin: 0 auto;
         background: rgb(181, 245, 242);
-         padding-left: 100px;
+        padding-left: 100px;
 
     }
+
     .services h2 {
         text-align: center;
-        color:rgb(79, 165, 161) ;
+        color: rgb(79, 165, 161);
     }
 
     /* media queries*/
 
     /* For larger to medium screens size from 1200px wide and down */
     @media screen and (max-width: 1200px) {
-        .features{
+        .features {
             width: 65%;
             height: 1200px;
             margin: 0 auto;
         }
+
         #welcome {
             padding: 30px 0;
             margin: 0;
@@ -285,112 +291,123 @@
             margin-bottom: 20px;
             line-height: 25px;
         }
+
         .features {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
+            width: 90%;
+            height: 1200px;
+            margin: 0 auto;
         }
     }
+
     #cover-text {
         left: 0;
     }
+
     /* For small screens sizes 800px and down*/
 
-    @media screen and (max-width: 800px){
-        #services{
+    @media screen and (max-width: 800px) {
+        #services {
             column-count: 1;
         }
-       .title-container .icons {
-           display: block;
-           
-       }
+
+        .title-container .icons {
+            display: block;
+
+        }
     }
-    @media screen and (max-width: 500px){
-        #hero-image{
+
+    @media screen and (max-width: 500px) {
+        #hero-image {
             background-color: rgb(79, 165, 161);
         }
 
     }
-        
-
-    @media screen and (max-width: 380px){
-      .icons {
-          text-align: center;
-          display: flex;
-          column-count: 1;
-      }
 
 
+    @media screen and (max-width: 380px) {
+        .icons {
+            text-align: center;
+            display: flex;
+            column-count: 1;
+        }
 
-        #services{
+
+
+        #services {
             column-count: 1;
             width: 300px;
             float: right;
             padding-right: 40px;
         }
-        .social{
-          text-align: center;
+
+        .social {
+            text-align: center;
         }
     }
 
 
     /* Form */
 
-        .form-section {
+    .form-section {
         clear: both;
         background-image: url('../images/form.jpeg');
         background-size: cover;
         background-position: center;
         height: 900px;
-        
-        }
+
+    }
 
 
     .sign-in {
-        margin : 150px 10% 0 0;
+        margin: 150px 10% 0 0;
         color: #fff;
-        background-color: rgba(79, 165, 161 , 0.6);
+        background-color: rgba(79, 165, 161, 0.6);
         max-width: 400px;
-        position:absolute;
+        position: absolute;
         left: 10%;
-        padding :30px;
-        
+        padding: 30px;
+
     }
-    .sign-in > h3 {
-    color :#fafafa ;
-    margin-bottom: 20px;
-    text-align: center;
+
+    .sign-in>h3 {
+        color: #fafafa;
+        margin-bottom: 20px;
+        text-align: center;
     }
+
     .text-input {
         color: rgb(33, 104, 100);
         width: 100%;
         margin-bottom: 25px;
-        border: 1px solid #fafafa  ;
+        border: 1px solid #fafafa;
         border-radius: 2px;
         height: 20px;
     }
-    .text-input:hover{
+
+    .text-input:hover {
         border-color: rgb(33, 104, 100);
     }
+
     #message {
         color: rgb(79, 165, 161);
         width: 100%;
         border-radius: 2px;
         height: 50px;
         padding-bottom: 50px;
-        
+
     }
 
     .send-button {
-    margin-top:20px;
-    border-radius: 2px;
-    padding : 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    color: #fafafa;
-    display: block;
-    background-color: rgb(33, 104, 100);
+        margin-top: 20px;
+        border-radius: 2px;
+        padding: 15px 32px 15px 32px;
+        text-align: center;
+        font-size: 100%;
+        color: #fafafa;
+        display: block;
+        background-color: rgb(33, 104, 100);
     }
-    .send-button:hover{
-        color:yellow;
+
+    .send-button:hover {
+        color: yellow;
     }
