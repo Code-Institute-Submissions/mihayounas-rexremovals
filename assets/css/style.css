@@ -420,10 +420,16 @@
     }
 
     .thank-you>div {
-        padding: 250px;
+        padding: 200px;
         font-size: xxx-large;
         font-family: cursive;
         color: white;
         text-align: center;
 
+    }
+
+    #thanks-link {
+        text-decoration: none;
+        color: white;
+        font-size: 80px;
     }
