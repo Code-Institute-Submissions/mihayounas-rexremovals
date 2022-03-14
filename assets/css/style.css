@@ -414,3 +414,12 @@
     .send-button:hover {
         color: yellow;
     }
+
+    .thank-you {
+        background-image: url('../images/move1.jpeg');
+
+    }
+
+    .thank-you menu {
+        clear: both;
+    }
