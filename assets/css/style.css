@@ -416,10 +416,14 @@
     }
 
     .thank-you {
-        background-image: url('../images/move1.jpeg');
-
+        background-color: rgb(79, 165, 161);
     }
 
-    .thank-you menu {
-        clear: both;
+    .thank-you>div {
+        padding: 250px;
+        font-size: xxx-large;
+        font-family: cursive;
+        color: white;
+        text-align: center;
+
     }

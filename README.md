@@ -1,4 +1,4 @@
-# Rex Removals
+## Rex Removals
 
 Rex Removals is a site that hopes to help people to connect to one of the best companies around,experts in moving furniture and customer care.The site will target the services offered , the customers relations and getting the help they need at a convenient price. The site will be useful for people around a specific area , who would like to move houses ,simply move furniture or purchase large and heavy items that require a large vehicle for transportation .
 
