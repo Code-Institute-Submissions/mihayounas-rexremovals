@@ -77,32 +77,13 @@
         height: 600px;
         width: 100%;
         overflow: hidden;
-    }
-
-    #hero-image {
-        z-index: -1;
-        height: 525px;
-        width: 100%;
         background: url('../images/hero.jpeg') no-repeat center center;
         background-size: cover;
-        /*animation effect and loading page*/
-
-        animation-name: hero-zoom;
-        animation-duration: 5s;
-        animation-fill-mode: forwards;
+        display: flex;
+        background-position: right;
     }
 
-    /*creates level of zoom for hero image*/
 
-    @keyframes hero-zoom {
-        from {
-            transform: scale(1);
-        }
-
-        to {
-            transform: scale(1.1);
-        }
-    }
 
     /*style button Get A Quote*/
 
@@ -110,15 +91,18 @@
         text-decoration: none;
         background-color: rgb(79, 165, 161);
         color: white;
-        font-size: xxx-large;
-        border-radius: 10%;
-
-
+        font-size: xx-large;
+        border-radius: 5px;
+        padding: 20px;
+        margin-top: 400px;
+        height: 35px;
+        margin-left: 150px;
 
     }
 
-    .button {
-        text-align: center;
+    #quote-button:hover {
+        background-color: rgb(33, 104, 100);
+        transform: scale(1.1);
     }
 
     /*special features section*/
@@ -170,8 +154,7 @@
     /*Feedbacks image styling */
 
     #feedbacks {
-        background-color: rgb(113, 202, 198);
-        background-position: center;
+        background-color: white;
         width: auto;
         overflow: hidden;
         display: flex;
@@ -179,6 +162,7 @@
         align-items: center;
         flex-wrap: wrap;
         background-size: cover;
+
     }
 
     #feedbacks div {
@@ -191,6 +175,7 @@
         border: 2px solid white;
         box-sizing: border-box;
         padding-top: 80px;
+        border-color: rgb(79, 165, 161);
     }
 
     #feedbacks h2 {
@@ -271,91 +256,7 @@
         align-items: center;
     }
 
-    /* media queries*/
 
-    /* For larger to medium screens size from 1200px wide and down */
-    @media screen and (max-width: 1200px) {
-        .features {
-            width: 65%;
-            margin: 0 auto;
-        }
-
-        #welcome {
-            padding: 30px 0;
-            margin: 0;
-        }
-
-        hr {
-            display: none;
-        }
-
-
-    }
-
-
-    /* For medium screen sizes from 950px wide and down */
-    @media screen and (max-width: 950px) {
-        #menu {
-            clear: left;
-            float: left;
-            margin-left: 30px;
-            margin-bottom: 20px;
-            line-height: 25px;
-        }
-
-        .features {
-            width: 90%;
-            margin: 0 auto;
-        }
-
-        #cover-text {
-            left: 0;
-        }
-
-        #services {
-            column-count: 2;
-        }
-    }
-
-
-
-    /* For small screens sizes 800px and down*/
-
-    @media screen and (max-width: 800px) {
-
-
-        .title-container .icons {
-            display: block;
-
-        }
-    }
-
-    @media screen and (max-width: 500px) {
-        #menu {
-            text-align: center;
-        }
-
-        #hero-image {
-            background-color: rgb(79, 165, 161);
-        }
-
-        .icons {
-            text-align: center;
-            display: flex;
-            column-count: 1;
-        }
-
-        #services {
-            column-count: 1;
-            float: right;
-
-        }
-
-        .social {
-            text-align: center;
-        }
-
-    }
 
     /* Form */
 
@@ -426,17 +327,124 @@
         background-color: rgb(79, 165, 161);
     }
 
-    .thank-you>div {
-        padding: 200px;
-        font-size: xxx-large;
+    .thank-you {
+        padding: 200px 40px;
+        font-size: xx-large;
         font-family: cursive;
         color: white;
         text-align: center;
-
+        margin-top: 20px;
+        clear: both;
     }
 
     #thanks-link {
         text-decoration: none;
         color: white;
-        font-size: 80px;
+        font-size: 60px;
+    }
+
+    /* media queries*/
+
+    /* For larger to medium screens size from 1200px wide and down */
+    @media screen and (max-width: 1200px) {
+        .features {
+            width: 65%;
+            margin: 0 auto;
+        }
+
+        #welcome {
+            padding: 30px 0;
+            margin: 0;
+        }
+
+        hr {
+            display: none;
+        }
+
+
+    }
+
+
+    /* For medium screen sizes from 950px wide and down */
+    @media screen and (max-width: 950px) {
+        #menu {
+            clear: left;
+            float: left;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            line-height: 25px;
+        }
+
+        .features {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        #cover-text {
+            left: 0;
+        }
+
+        #services {
+            column-count: 2;
+        }
+    }
+
+
+
+    /* For small screens sizes 800px and down*/
+
+    @media screen and (max-width: 800px) {
+        #hero-outer {
+            height: 800px;
+        }
+
+
+        .title-container .icons {
+            display: block;
+
+        }
+
+        #thanks-link {
+            font-size: 30px;
+        }
+
+        #quote-button {
+            height: 25px;
+            font-size: 25px;
+            margin-top: 500px;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        #hero-outer {
+            height: 600px;
+
+        }
+
+        #menu {
+            text-align: center;
+        }
+
+        .icons {
+            text-align: center;
+            display: flex;
+            column-count: 1;
+        }
+
+        #services {
+            column-count: 1;
+            float: right;
+
+        }
+
+        .social {
+            text-align: center;
+        }
+
+        #quote-button {
+            margin-top: 400px;
+            margin-left: 50px;
+
+        }
+
     }
