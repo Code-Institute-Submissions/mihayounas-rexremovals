@@ -117,6 +117,7 @@
         text-align: center;
         font-size: 30px;
         margin: 20px;
+        color: rgb(79, 165, 161)
     }
 
     .title-container {
@@ -140,6 +141,7 @@
         border: 1px solid rgb(0, 0, 0, 0.1);
         width: 300px;
         height: 150px;
+        border-color: rgb(79, 165, 161);
     }
 
     /*Style the section title*/
@@ -162,6 +164,7 @@
         align-items: center;
         flex-wrap: wrap;
         background-size: cover;
+
 
     }
 
@@ -242,7 +245,6 @@
         margin: 0 auto;
         background: rgb(122, 180, 177);
 
-
     }
 
     #services h2 {
@@ -256,6 +258,7 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
+
     }
 
 

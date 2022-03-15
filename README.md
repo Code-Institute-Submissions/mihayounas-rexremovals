@@ -1,4 +1,4 @@
-#**_ Rex Removals_**
+# **_ Rex Removals_**
 
 Rex Removals is a site that hopes to help people to connect to one of the best companies around,experts in moving furniture and customer care.The site will target the services offered , the customers relations and getting the help they need at a convenient price. The site will be useful for people around a specific area , who would like to move houses ,simply move furniture or purchase large and heavy items that require a large vehicle for transportation .
 
@@ -7,7 +7,7 @@ Welcome to <a href="http://mihayounas.github.io/rexremovals/index.html" target="
 
 ## Site Structure
 
-Rex Removals website has four pages.The [home-page] (index.html) is the default loading page , [services] (services.html) , [contact](contact-us.html) and [thank-you](thank-you.html) after submitting the message in the contact page.
+Rex Removals website has four pages.The [about-us](index.html) is the default loading page , [services](services.html) , [contact](contact-us.html) and [thank-you](thank-you.html) after submitting the message in the contact page.
 
 
 
