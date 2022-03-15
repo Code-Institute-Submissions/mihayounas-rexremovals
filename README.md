@@ -38,7 +38,7 @@ Rex Removals website is set up to be easy to use . It contains features that a u
   * This should encourage the user to consider using the services offered by Rex Removals.
 
 
-[Features-image](assets/images/features1.png)
+[Features](assets/images/features1.png)
 [Back to top](<#contents>)
 
 * ### Feedbacks section :
