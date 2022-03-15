@@ -1,29 +1,43 @@
-## Rex Removals
+#**_ Rex Removals_**
 
 Rex Removals is a site that hopes to help people to connect to one of the best companies around,experts in moving furniture and customer care.The site will target the services offered , the customers relations and getting the help they need at a convenient price. The site will be useful for people around a specific area , who would like to move houses ,simply move furniture or purchase large and heavy items that require a large vehicle for transportation .
 
+Welcome to <a href="http://mihayounas.github.io/rexremovals/index.html" target="_blank" rel="noopener">Rex Removals</a>
+
+
+## Site Structure
+
+Rex Removals website has four pages.The [home-page] (index.html) is the default loading page , [services] (services.html) , [contact](contact-us.html) and [thank-you](thank-you.html) after submitting the message in the contact page.
 
 
 
-* Navigation Bar :
-  • Featured on all three pages, the full responsive navigation bar includes links to the Logo, About Us, Contact and Testimonials page and is identical in each page to allow for easy navigation.
-  •This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+# Features
+Rex Removals website is set up to be easy to use . It contains features that a user would be fimiliar with ,such as navigation menu feedbacks,description of services and contact form.
+
+Existing Features
+
+* ### Navigation Bar :
+  * Featured on all four pages, the full responsive navigation bar includes links to the Logo, About Us, Services , Contact Us page and is identical in each page to allow for easy navigation.
+  * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+  * The logo is clickable with a link back to the home page for enhanced UX.
+
+  ![Navigation bar image](assets/images/nav-pic.png)
  
- * Landing Page
-  • The landing includes a photograph with button overlay to allow the user to get a free quote - by pressing it  it will take him to the contact page .
-  • This section introduces the user to Rex Removals with an eye catching animation to grab their attention .
+  * ### About-Us
+  * The About Us includes a photograph with button overlay to allow the user to get a free quote - by pressing it  it will take him to the contact page .
+  * This section introduces the user to Rex Removals with an eye catching picture to grab their attention on the services provided.
   
-  <img width="1279" alt="Screenshot 2022-03-09 at 12 20 53" src="https://user-images.githubusercontent.com/76411576/157442369-4e6ecd2b-e4eb-45dc-ac70-9251b900e540.png">
+ ![About-Us image](assets/images/about-us.png)
 
-* Why Choosing Us? section:
+  * ### Why Choosing Us? :
 
-• This section will allow the user to see the benefits of choosing this company for their desired jobs .
-• This should encourage the user to consider using the services offered by Rex Removals.
+  * This section will allow the user to see the benefits of choosing this company for their desired jobs .
+  * This should encourage the user to consider using the services offered by Rex Removals.
 
 
-<img width="1280" alt="Screenshot 2022-03-09 at 12 22 42" src="https://user-images.githubusercontent.com/76411576/157444959-3611e6dd-c8ef-4417-a916-9ce4c63ee8ed.png">
 
-* Feedbacks section :
+
+* ### Feedbacks section :
 
 • This section will allow the user to see the real opinions from real experiences of previous customers .
 
