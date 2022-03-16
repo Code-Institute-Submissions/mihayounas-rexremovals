@@ -162,8 +162,13 @@ The steps to deploy a site are as follows:
   1. In the GitHub repository, navigate to the **Settings** tab.
   2. Once in Settings, navigate to the **GitHub Pages** down on the page.
   3. Under **GitHub Pages** will be a message "Pages settings now has its own dedicated tab! Check it out here!",
+
+![Github-pages](assets/images/deploy1.png)
+
   4. Press "Check it out here!" and it will take us to **GitHub Pages** where we can name our project.
   4. Once named we can select the main branch,we have to press save.After pressing save we will be provided with a link to our repository and when refreshed it will show that is it a live website , therefore successful deployment.
+
+  ![Deploying](assets/images/deply2.png)
 
  The live link to the Github repository can be found here : https://mihayounas.github.io/rexremovals/ .
   
