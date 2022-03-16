@@ -188,7 +188,7 @@
 
     #trustpilot-logo {
         text-align: center;
-        color: rgb(79, 165, 161);
+        color: rgb(36, 117, 77);
     }
 
     #feedback-title {
@@ -325,7 +325,8 @@
     }
 
     .send-button:hover {
-        color: yellow;
+        border: 1px solid #3a3a3a;
+        background-color: rgb(122, 180, 177);
     }
 
     .thank-you {
