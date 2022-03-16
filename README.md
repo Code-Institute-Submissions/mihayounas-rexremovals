@@ -76,8 +76,7 @@ Rex Removals website is set up to be easy to use . It contains features that a u
 * ### Form Confirmation Thank you page
     * This page confirms for the user that their details have been sent to Rex Removals. For this project it validates the form only.
     * It provides a direct link back to the main page as well as the navigation menu links in the header and footer.
-
-
+![Thank-you-Image](assets/images/thank-you.png)
 
 # Technologies Used
 * [HTML5] (https://www.w3schools.com/html/- provides the content and structure for the website.
