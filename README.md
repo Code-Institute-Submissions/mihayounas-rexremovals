@@ -38,14 +38,14 @@ Rex Removals website is set up to be easy to use . It contains features that a u
   * This should encourage the user to consider using the services offered by Rex Removals.
 
 
-[Features](assets/images/features1.png)
+![Features](assets/images/features1.png)
 
 
 * ### Feedbacks section :
 
 * This section will allow the user to see the real opinions from real experiences of previous customers .There are four feedbacks displayed ,with the name of the customer , customer opinion and how many stars they thought the service worth.
 
-[Feedbacks-image](assets/images/feedbacks.png)
+![Feedbacks-image](assets/images/feedbacks.png)
 
 
 * ### The Footer :
@@ -54,7 +54,7 @@ Rex Removals website is set up to be easy to use . It contains features that a u
 * The footer is valuable to the user as it encourages them to keep connected via social media .
 * The footer also includes a location name to allow the user to understand that this company is based in London.
 
-[Social Media](assets/images/social-footer.png)
+![Social Media](assets/images/social-footer.png)
 
 
 * ### Services
@@ -63,7 +63,7 @@ Rex Removals website is set up to be easy to use . It contains features that a u
 
 * This section is valuable to the user as they will be able to easily identify the types services the company puts together.
 
-[Services-image](assets/images/services.png)
+![Services-image](assets/images/services.png)
 
 
 * ### Contact Us page :
@@ -75,7 +75,7 @@ Rex Removals website is set up to be easy to use . It contains features that a u
     * This page confirms for the user that their details have been sent to Rex Removals. For this project it validates the form only.
     * It provides a direct link back to the main page as well as the navigation menu links in the header and footer.
 
-[Contact-us-Image](assets/images/contactform.png)
+![Contact-us-Image](assets/images/contactform.png)
 
 
 # Technologies Used
@@ -106,13 +106,13 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
 * HTML
 No errors were returned when passing through the official W3C validator
 
-[HTML-Validator](assets/images/html.png)
+![HTML-Validator](assets/images/html.png)
 
 
 * CSS
 No errors were found when passing through the official W3C CSS validator
 
-[CSS-Validator](assets/images/css.png)
+![CSS-Validator](assets/images/css.png)
 
 
  * ### Deployment: 
