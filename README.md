@@ -171,6 +171,16 @@ The steps to deploy a site are as follows:
   ![Deploying](assets/images/deply2.png)
 
  The live link to the Github repository can be found here : https://mihayounas.github.io/rexremovals/ .
+
+ ### **To create a local clone of this project**
+The method from cloning a project from GitHub is below:
+1. Under the repository’s name, click on the **code** tab.
+![Clone-img](assets/images/clone.png)
+2. In your preffered IDE open **Git Bash**
+3. Change the working directory with the location where you would like your clone to be created .
+4. Type **git clone** and the paste the URL copied previously.
+5. **Enter** button to be pressed and the clone will be created.
+
   
    # Acknowledgements
 The site was completed as a Portfolio 1 Project 1 (HTML-CSS)for the Full Stack Software Developer at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentors [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), and [Anton Zaharia] for their help and support.
