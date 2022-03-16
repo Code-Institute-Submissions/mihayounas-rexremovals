@@ -71,11 +71,12 @@ Rex Removals website is set up to be easy to use . It contains features that a u
 * This page will allow the users to send a personalised message to the company asking for a quote.They will also have the ability to require extra help for the job that they are looking to be done .The user will submit their full name ,email and personalised message.
 * The phone number is provided also at the bottom of the form.
 
+![Contact-us-Image](assets/images/contactform.png)
+
 * ### Form Confirmation Thank you page
     * This page confirms for the user that their details have been sent to Rex Removals. For this project it validates the form only.
     * It provides a direct link back to the main page as well as the navigation menu links in the header and footer.
 
-![Contact-us-Image](assets/images/contactform.png)
 
 
 # Technologies Used
