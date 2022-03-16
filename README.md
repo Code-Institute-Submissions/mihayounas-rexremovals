@@ -10,7 +10,13 @@ Welcome to <a href="http://mihayounas.github.io/rexremovals/index.html" target="
 Rex Removals website has four pages.The [about-us](index.html) is the default loading page , [services](services.html) , [contact](contact-us.html) and [thank-you](thank-you.html) page after submitting the message in the contact page.
 
 
+## Design
+*### Font 
+The fonts chosen were 'Exo 2' for the heading and 'Alegraya' for the body text, also added cursive for the thank you page.The fall back is sans-serif. The two fonts chosen go really good together and it provides really good contrast .
 
+* ### Colour Scheme
+ The color scheme chosen is based on a light green and white .The colors are consistent throughout the website .
+ ![Color-scheme](assets/images/color-scheme.png)
 
 # Features
 Rex Removals website is set up to be easy to use . It contains features that a user would be fimiliar with ,such as navigation menu feedbacks,description of services and contact form.
@@ -180,6 +186,15 @@ The method from cloning a project from GitHub is below:
 3. Change the working directory with the location where you would like your clone to be created .
 4. Type **git clone** and the paste the URL copied previously.
 5. **Enter** button to be pressed and the clone will be created.
+
+# Credits
+### Content
+
+* The font came from [Google Fonts](https://fonts.google.com/).
+* The colour scheme was made by [Colormind](http://colormind.io/).
+* The icons came from [Font Awesome](https://fontawesome.com/).
+* Some of the code ideas came from  [Stack Overflow](https://stackoverflow.com/).
+
 
   
    # Acknowledgements
