@@ -11,7 +11,7 @@ Rex Removals website has four pages.The [about-us](index.html) is the default lo
 
 
 ## Design
-*### Font 
+* ### Font 
 The fonts chosen were 'Exo 2' for the heading and 'Alegraya' for the body text, also added cursive for the thank you page.The fall back is sans-serif. The two fonts chosen go really good together and it provides really good contrast .
 
 * ### Colour Scheme
