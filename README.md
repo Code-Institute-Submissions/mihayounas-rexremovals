@@ -9,7 +9,7 @@ Welcome to <a href="http://mihayounas.github.io/rexremovals/index.html" target="
 
 Rex Removals website has four pages.The [about-us](index.html) is the default loading page , [services](services.html) , [contact](contact-us.html) and [thank-you](thank-you.html) page after submitting the message in the contact page.
 
-[Back to top](<#contents>)
+
 
 
 # Features
@@ -23,14 +23,14 @@ Rex Removals website is set up to be easy to use . It contains features that a u
   * The logo is clickable with a link back to the home page for enhanced UX.
 
   ![Navigation bar image](assets/images/nav-pic.png)
-  [Back to top](<#contents>)
+  
  
   * ### About-Us
   * The About Us includes a photograph with button overlay to allow the user to get a free quote - by pressing it  it will take him to the contact page .
   * This section introduces the user to Rex Removals with an eye catching picture to grab their attention on the services provided.
   
  ![About-Us image](assets/images/about-us.png)
- [Back to top](<#contents>)
+
 
   * ### Why Choosing Us? :
 
@@ -39,14 +39,14 @@ Rex Removals website is set up to be easy to use . It contains features that a u
 
 
 [Features](assets/images/features1.png)
-[Back to top](<#contents>)
+
 
 * ### Feedbacks section :
 
 * This section will allow the user to see the real opinions from real experiences of previous customers .There are four feedbacks displayed ,with the name of the customer , customer opinion and how many stars they thought the service worth.
 
 [Feedbacks-image](assets/images/feedbacks.png)
-[Back to top](<#contents>)
+
 
 * ### The Footer :
 
@@ -55,7 +55,7 @@ Rex Removals website is set up to be easy to use . It contains features that a u
 * The footer also includes a location name to allow the user to understand that this company is based in London.
 
 [Social Media](assets/images/social-footer.png)
-[Back to top](<#contents>)
+
 
 * ### Services
 
@@ -64,7 +64,7 @@ Rex Removals website is set up to be easy to use . It contains features that a u
 * This section is valuable to the user as they will be able to easily identify the types services the company puts together.
 
 [Services-image](assets/images/services.png)
-[Back to top](<#contents>)
+
 
 * ### Contact Us page :
 
@@ -76,7 +76,7 @@ Rex Removals website is set up to be easy to use . It contains features that a u
     * It provides a direct link back to the main page as well as the navigation menu links in the header and footer.
 
 [Contact-us-Image](assets/images/contactform.png)
-[Back to top](<#contents>) 
+
 
 # Technologies Used
 * [HTML5] (https://www.w3schools.com/html/- provides the content and structure for the website.
@@ -84,7 +84,7 @@ Rex Removals website is set up to be easy to use . It contains features that a u
 * [Gitpod](https://www.gitpod.io/#get-started) - used to deploy the website.
 * [Github](https://github.com/) - used to host and edit the website.
 
-[Back to top](<#contents>)
+
 
 ### **To deploy the project**
 The site was deployed to GitHub pages. The steps to deploy a site are as follows:
@@ -95,34 +95,39 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
   4. Oncenamed we can select the main branch,we have to press save.After pressing save we will be provided with a link to our repository and when refreshed it will show that is it a live website , therefore successful deployment.
 
  The live link to the Github repository can be found here : https://mihayounas.github.io/rexremovals/ .
- [Back to top](<#contents>)
+ 
 
  ### Media
  * The photos all came from [Pexels](pexels.com)
  * Some of the photos were compressed using [Sqoosh]http://sqoosh.app/
-
- # Acknowledgements
-The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), and [Anton Zaharia] .
+ * The icons in the footer were taken from [Font-Awesome](https://fontawesome.com/) .
 
  * ### Validator Testing:
-• HTML
+* HTML
 No errors were returned when passing through the official W3C validator
-• CSS
-No errors were found when passing through the official (Jigsaw) validator
+
+[HTML-Validator](assets/images/html.png)
+
+
+* CSS
+No errors were found when passing through the official W3C CSS validator
+
+[CSS-Validator](assets/images/css.png)
 
 
  * ### Deployment: 
 
 The site was deployed to GitHub pages.
 The steps to deploy are as follows:
-  In the GitHub repository, navigate to the Settings tab
-  From the source section drop-down menu, select the Master Branch
-  Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-  The live link can be found here : https://mihayounas.github.io/rexremovals/ .
+  1. In the GitHub repository, navigate to the Settings tab
+  2. From the source section drop-down menu, select the Master Branch
+  3. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  4. The live link can be found here : https://mihayounas.github.io/rexremovals/ .
+  
+   # Acknowledgements
+The site was completed as a Portfolio 1 Project 1 (HTML-CSS)for the Full Stack Software Developer at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentors [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), and [Anton Zaharia] for their help and support.
   
   
-  
- * ### Credits :
-The pictures user through this website were take from https://www.pexels.com/ .
-The icons in the footer were taken from Font Awesome .
+ 
+
 
