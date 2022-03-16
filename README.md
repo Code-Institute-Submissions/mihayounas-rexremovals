@@ -52,14 +52,14 @@ Rex Removals website is set up to be easy to use . It contains features that a u
 
 * The footer section includes links to the relevant social media sites for Rex Removals. The links will open to a new tab to allow easy navigation for the user.
 * The footer is valuable to the user as it encourages them to keep connected via social media .
-* The footer also includes a location name to allow the user to understand that this company is based in London.
+
 
 ![Social Media](assets/images/social-footer.png)
 
 
 * ## Services
 
-* This page will provide the user with supporting images to see what the meet ups look like and what their services are about .
+* This page will provide the user with supporting images to see what the job bookings look like and what their services are about .
 
 * This section is valuable to the user as they will be able to easily identify the types services the company puts together.
 
@@ -75,7 +75,7 @@ Rex Removals website is set up to be easy to use . It contains features that a u
 
 * ### Form Confirmation Thank you page
     * This page confirms for the user that their details have been sent to Rex Removals. For this project it validates the form only.
-    * It provides a direct link back to the main page as well as the navigation menu links in the header and footer.
+    * It provides a direct link back to the main page as well as the navigation menu links in the header and footer. By cliking the text you will be taken back to the main page with no need of using back button.
 ![Thank-you-Image](assets/images/thank-you.png)
 
 # Technologies Used
@@ -87,10 +87,10 @@ Rex Removals website is set up to be easy to use . It contains features that a u
  ### Media
  * The photos all came from [Pexels](pexels.com)
  * Some of the photos were compressed using [Sqoosh]http://sqoosh.app/
- * The icons in the footer were taken from [Font-Awesome](https://fontawesome.com/) .
+ * The icons in the footer,features,feedback , services ,thank you-page sections,all, were taken from [Font-Awesome](https://fontawesome.com/) .
 
   # Testing:
-  Rex Removals website has been throughly tested. All the code has been run through the W3C html Validator and the W3C CSS Validator. Minor errors were found on the first About us page. After fixing and retest, no errors were found .
+  Rex Removals website has been properly tested ,all the code has been run through the W3C html Validator and the W3C CSS Validator. Minor errors were found on the first About us page. After fixing and retesting, no errors were found .
 
   ### HTML validator results are :
 
@@ -122,29 +122,34 @@ Rex Removals site was tested on the following browsers with no visible issues fo
 1. Google Chrome 
 2. Safari 
 3. Mozilla Firefox
- Appearance, functionality and responsiveness were consistent throughout for a range of device sizes and browsers.
+* Appearance, functionality and responsiveness were consistent throughout for a range of browsers and device sizes. 
 
 
 ## Known Bugs
 * ### Resolved
 * During the validation process three bugs were found as follows :
-1. About Us page - the first section was missing a H2-H6 , this was eassily fixed by adding the propper header to the section.
-2. The closing tag was missing for a </h3> ,this was easily fixed but later on I changed the <h3> of the section to a <h2>.
+1. About Us page - the first section was missing a header, this was eassily fixed by adding the proper header to the section.
+2. The closing tag was missing for a h3 ,this was easily fixed but later on I changed the h3 of the section to a h2.
 3. CSS - missed a closing bracket .
+
 * ### Unresolved
     * The form,  acts like you would expect it to, it acknowledges your data input, however the data doesn't push anywhere it just takes the user to a thank you page . This is a limitation within this particular project and would be rectified .
 
     ## Additional Testing
 ### Lighthouse
 The website was tested using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Developer Tools to test each of the pages for:
-* Performance - How the page performs whilst loading.
-* Accessibility - Is the site accessible for all users and how can it be improved.
-* Best Practices - Site conforms to industry best practices.
-* SEO - Search engine optimisation. Is the site optimised for search engine result rankings.
+* Performance - How the page will be loading.
+* Accessibility - Checking if the website is  accessible for all users and how can it be improved.
+* Best Practices 
+* SEO - Search Engine Optimisation. This helps us to understand if the website is optimised for search engine result rankings.
 
 The results are as follows:
 
+1. For the Desktop:
+
 ![Lighthouse-Desktop](assets/images/desktop.png)
+
+2. For the Mobile:
 
 ![Lighthouse-mobile](assets/images/mobile.png)
 
