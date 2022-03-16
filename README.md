@@ -5,7 +5,7 @@ Rex Removals is a site that hopes to help people to connect to one of the best c
 Welcome to <a href="http://mihayounas.github.io/rexremovals/index.html" target="_blank" rel="noopener">Rex Removals</a>
 
 
-## Site Structure
+# Site Structure
 
 Rex Removals website has four pages.The [about-us](index.html) is the default loading page , [services](services.html) , [contact](contact-us.html) and [thank-you](thank-you.html) page after submitting the message in the contact page.
 
@@ -17,7 +17,7 @@ Rex Removals website is set up to be easy to use . It contains features that a u
 
 ## Existing Features
 
-* ### Navigation Bar :
+* ## Navigation Bar :
   * Featured on all four pages, the full responsive navigation bar includes links to the Logo, About Us, Services , Contact Us page and is identical in each page to allow for easy navigation.
   * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
   * The logo is clickable with a link back to the home page for enhanced UX.
@@ -25,7 +25,7 @@ Rex Removals website is set up to be easy to use . It contains features that a u
   ![Navigation bar image](assets/images/nav-pic.png)
   
  
-  * ### About-Us
+  * ## About-Us
   * The About Us includes a photograph with button overlay to allow the user to get a free quote - by pressing it  it will take him to the contact page .
   * This section introduces the user to Rex Removals with an eye catching picture to grab their attention on the services provided.
   
@@ -57,7 +57,7 @@ Rex Removals website is set up to be easy to use . It contains features that a u
 ![Social Media](assets/images/social-footer.png)
 
 
-* ### Services
+* ## Services
 
 * This page will provide the user with supporting images to see what the meet ups look like and what their services are about .
 
@@ -66,7 +66,7 @@ Rex Removals website is set up to be easy to use . It contains features that a u
 ![Services-image](assets/images/services.png)
 
 
-* ### Contact Us page :
+* ## Contact Us page :
 
 * This page will allow the users to send a personalised message to the company asking for a quote.They will also have the ability to require extra help for the job that they are looking to be done .The user will submit their full name ,email and personalised message.
 * The phone number is provided also at the bottom of the form.
@@ -79,7 +79,7 @@ Rex Removals website is set up to be easy to use . It contains features that a u
 ![Thank-you-Image](assets/images/thank-you.png)
 
 # Technologies Used
-* [HTML5] (https://www.w3schools.com/html/- provides the content and structure for the website.
+* [HTML5] (https://www.w3schools.com/html/) - provides the content and structure for the website.
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - provides the styling.
 * [Gitpod](https://www.gitpod.io/#get-started) - used to deploy the website.
 * [Github](https://github.com/) - used to host and edit the website.
@@ -89,17 +89,66 @@ Rex Removals website is set up to be easy to use . It contains features that a u
  * Some of the photos were compressed using [Sqoosh]http://sqoosh.app/
  * The icons in the footer were taken from [Font-Awesome](https://fontawesome.com/) .
 
- * ### Validator Testing:
-* HTML
-No errors were returned when passing through the official W3C validator
+  # Testing:
+  Rex Removals website has been throughly tested. All the code has been run through the W3C html Validator and the W3C CSS Validator. Minor errors were found on the first About us page. After fixing and retest, no errors were found .
 
-![HTML-Validator](assets/images/html.png)
+  ### HTML validator results are :
+
+* About Us Page
+![W3C Validator test result](assets/images/indexvalidator.png)
+
+* Services Page
+![W3C Validator test result](assets/images//servicesval.png)
+
+* Contact Us Page
+![W3C Validator test result](assets/images/contact-usval.png)
+
+* Thank You Page 
+![W3C Validator test result](assets/images/thankyouval.png)
 
 
-* CSS
-No errors were found when passing through the official W3C CSS validator
 
-![CSS-Validator](assets/images/css.png)
+
+### CSS validator results are below:
+
+![CSS Validator test result](assets/images/css.png)
+
+## Responsiveness Test
+
+* The responsive design tests were carried out manually with [Responsive Design Checker](https://www.responsivedesignchecker.com/) ,I can confirm that all the tests were passed.
+## Browser Compatibility
+
+Rex Removals site was tested on the following browsers with no visible issues for the user:
+1. Google Chrome 
+2. Safari 
+3. Mozilla Firefox
+ Appearance, functionality and responsiveness were consistent throughout for a range of device sizes and browsers.
+
+
+## Known Bugs
+* ### Resolved
+* During the validation process three bugs were found as follows :
+1. About Us page - the first section was missing a H2-H6 , this was eassily fixed by adding the propper header to the section.
+2. The closing tag was missing for a </h3> ,this was easily fixed but later on I changed the <h3> of the section to a <h2>.
+3. CSS - missed a closing bracket .
+* ### Unresolved
+    * The form,  acts like you would expect it to, it acknowledges your data input, however the data doesn't push anywhere it just takes the user to a thank you page . This is a limitation within this particular project and would be rectified .
+
+    ## Additional Testing
+### Lighthouse
+The website was tested using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Developer Tools to test each of the pages for:
+* Performance - How the page performs whilst loading.
+* Accessibility - Is the site accessible for all users and how can it be improved.
+* Best Practices - Site conforms to industry best practices.
+* SEO - Search engine optimisation. Is the site optimised for search engine result rankings.
+
+The results are as follows:
+
+![Lighthouse-Desktop](assets/images/desktop.png)
+
+![Lighthouse-mobile](assets/images/mobile.png)
+
+
 
 
  * ### Deployment: 
