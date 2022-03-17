@@ -137,19 +137,19 @@ Rex Removals site was tested on the following browsers with no visible issues fo
 ## Known Bugs
 * ### Resolved
 * During the validation process three bugs were found as follows :
-1. About Us page - the first section was missing a header, this was eassily fixed by adding the proper header to the section.
-2. The closing tag was missing for a h3 ,this was easily fixed but later on I changed the h3 of the section to a h2.
-3. CSS - missed a closing bracket .
+i. About Us page - the first section was missing a header, this was eassily fixed by adding the proper header to the section.
+ii. The closing tag was missing for a h3 ,this was easily fixed but later on I changed the h3 of the section to a h2.
+iii. CSS - missed a closing bracket .
 
 * ### Unresolved
     * The form,  acts like you would expect it to, it acknowledges your data input, however the data doesn't push anywhere it just takes the user to a thank you page . This is a limitation within this particular project and would be rectified .
 
     ## Future Features :
     Rex Removals website will be definetly updated in the future with following :
-    1. Fully Responsive form which sends data .
-    2. A scroll Back to top Button.
-    3. An option to calculate prices for different routes and number of pieces to transport .
-    In the future this website will become more complex and more useful , but at the same time it will be kept simple for the users .
+    * Fully Responsive form which sends data .
+    * A scroll Back to top Button.
+    * An option to calculate prices for different routes and number of pieces to transport .
+    * In the future this website will become more complex and more useful , but at the same time it will be kept simple for the users .
 
     ## Additional Testing
 ### Lighthouse
