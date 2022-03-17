@@ -212,7 +212,7 @@ The method from cloning a project from GitHub is below:
 
   
    # Acknowledgements
-The site was completed as a Portfolio 1 Project 1 (HTML-CSS)for the Full Stack Software Developer at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentors [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), and [Anton Zaharia] for their help and support.
+The site was completed as a Portfolio 1 Project 1 (HTML-CSS)for the Full Stack Software Developer at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentors [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), and [Anton Zaharia](http://www.linkedin.com/in/antonzaharia/) for their help and support.
   
   
  
