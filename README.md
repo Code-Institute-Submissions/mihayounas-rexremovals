@@ -85,15 +85,10 @@ Rex Removals website is set up to be easy to use . It contains features that a u
 ![Thank-you-Image](assets/images/thank-you.png)
 
 # Technologies Used
-* [HTML5] (https://www.w3schools.com/html/) - provides the content and structure for the website.
+* [HTML5](https://www.w3schools.com/html/) - provides the content and structure for the website.
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - provides the styling.
 * [Gitpod](https://www.gitpod.io/#get-started) - used to deploy the website.
 * [Github](https://github.com/) - used to host and edit the website.
-
- ### Media
- * The photos all came from [Pexels](pexels.com)
- * Some of the photos were compressed using [Sqoosh]http://sqoosh.app/
- * The icons in the footer,features,feedback , services ,thank you-page sections,all, were taken from [Font-Awesome](https://fontawesome.com/) .
 
   # Testing:
   Rex Removals website has been properly tested ,all the code has been run through the W3C html Validator and the W3C CSS Validator. Minor errors were found on the first About us page. After fixing and retesting, no errors were found .
@@ -122,6 +117,14 @@ Rex Removals website is set up to be easy to use . It contains features that a u
 ## Responsiveness Test
 
 * The responsive design tests were carried out manually with [Responsive Design Checker](https://www.responsivedesignchecker.com/) ,I can confirm that all the tests were passed.
+![Responsive-design-checker-image-desktop](assets/images/responsivemonitor.png)
+![Responsive-design-checker-image-mobile](assets/images/responsivemobile.png)
+* The testing was also done through Google Chrome Dev Tools by selecting a device of your choice as follows :
+
+![Dev-Tools-image](assets/images/devtools.png)
+
+![Dev-Tools-Devices-image](assets/images/devices.png)
+
 ## Browser Compatibility
 
 Rex Removals site was tested on the following browsers with no visible issues for the user:
@@ -140,6 +143,13 @@ Rex Removals site was tested on the following browsers with no visible issues fo
 
 * ### Unresolved
     * The form,  acts like you would expect it to, it acknowledges your data input, however the data doesn't push anywhere it just takes the user to a thank you page . This is a limitation within this particular project and would be rectified .
+
+    ## Future Features :
+    Rex Removals website will be definetly updated in the future with following :
+    1. Fully Responsive form which sends data .
+    2. A scroll Back to top Button.
+    3. An option to calculate prices for different routes and number of pieces to transport .
+    In the future this website will become more complex and more useful , but at the same time it will be kept simple for the users .
 
     ## Additional Testing
 ### Lighthouse
@@ -188,12 +198,16 @@ The method from cloning a project from GitHub is below:
 5. **Enter** button to be pressed and the clone will be created.
 
 # Credits
-### Content
 
+### Content
 * The font came from [Google Fonts](https://fonts.google.com/).
 * The colour scheme was made by [Colormind](http://colormind.io/).
 * The icons came from [Font Awesome](https://fontawesome.com/).
 * Some of the code ideas came from  [Stack Overflow](https://stackoverflow.com/).
+ ### Media
+ * The photos all came from [Pexels](pexels.com)
+ * Some of the photos were compressed using [Sqoosh]http://sqoosh.app/
+ * The icons in the footer,features,feedback , services ,thank you-page sections,all, were taken from [Font-Awesome](https://fontawesome.com/) 
 
 
   
