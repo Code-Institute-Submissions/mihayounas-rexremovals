@@ -137,9 +137,9 @@ Rex Removals site was tested on the following browsers with no visible issues fo
 ## Known Bugs
 * ### Resolved
 * During the validation process three bugs were found as follows :
-i. About Us page - the first section was missing a header, this was eassily fixed by adding the proper header to the section.
-ii. The closing tag was missing for a h3 ,this was easily fixed but later on I changed the h3 of the section to a h2.
-iii. CSS - missed a closing bracket .
+ 1. About Us page - the first section was missing a header, this was eassily fixed by adding the proper header to the section.
+ 2. The closing tag was missing for a h3 ,this was easily fixed but later on I changed the h3 of the section to a h2.
+ 3. CSS - missed a closing bracket .
 
 * ### Unresolved
     * The form,  acts like you would expect it to, it acknowledges your data input, however the data doesn't push anywhere it just takes the user to a thank you page . This is a limitation within this particular project and would be rectified .
@@ -182,7 +182,7 @@ The steps to deploy a site are as follows:
 ![Github-pages](assets/images/deploy1.png)
 
   4. Press "Check it out here!" and it will take us to **GitHub Pages** where we can name our project.
-  4. Once named we can select the main branch,we have to press save.After pressing save we will be provided with a link to our repository and when refreshed it will show that is it a live website , therefore successful deployment.
+  5. Once named we can select the main branch,we have to press save.After pressing save we will be provided with a link to our repository and when refreshed it will show that is it a live website , therefore successful deployment.
 
   ![Deploying](assets/images/deply2.png)
 
@@ -216,5 +216,5 @@ The site was completed as a Portfolio 1 Project 1 (HTML-CSS)for the Full Stack S
   
   
  
-Mihaela Younas 2023.
+Mihaela Younas 2022.
 
